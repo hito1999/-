@@ -1,0 +1,21 @@
+
+<view class="input-box" hover-class="none" hover-stop-propagation="false">
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        添加新的跑腿帖子
+    </view>
+    <text class="" selectable="" space="false" decode="false">
+    请输入帖子的内容，发帖的时间和用户名将会自动绑定
+    </text>
+    <textarea class="content"
+    placeholder="输入你的跑腿内容"
+    value="{{content}}"
+    bindblur="change">
+    </textarea>
+    <text class="" selectable="false" space="false" decode="false" >
+    !帖子的存在最长时长为24小时
+    </text>
+    <button  bindtap="submit"
+        hover-class="" hover-stop-propagation="false" >
+        提交
+    </button>
+</view>

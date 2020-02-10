@@ -1,0 +1,14 @@
+<view class="top">
+<button class="btn1" bindtap="addpost">点我添加新的跑腿帖子</button>
+</view>
+<view>所有帖子：</view>
+  <view
+  wx:for="{{one}}"
+  wx:key="id"
+  wx:for-item="a"
+  >
+  <Lists one="{{a}}"></Lists>
+
+  <text class="iconfont icon-icon-test4" selectable="false" space="false" decode="false">12321312323
+  </text>
+</view>

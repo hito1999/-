@@ -1,0 +1,11 @@
+.input-box{
+    background-color:rgb(219, 219, 219);
+    padding-bottom:50rpx;
+}
+textarea{
+    border:1px solid grey;
+    height:300rpx;
+}
+text{
+    color:red;
+}
