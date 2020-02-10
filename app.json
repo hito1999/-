@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/demo3/demo3",
+    "pages/demo1/demo1",
+    "pages/demo2/demo2",  
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/addpost/addpost"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#6B8E23",
+    "navigationBarTitleText": "跑腿帮",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/demo3/demo3",
+        "text": "跑腿",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/home1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "市场",
+        "iconPath": "icon/market.png",
+        "selectedIconPath": "icon/market1.png"
+      },
+      {
+        "pagePath": "pages/demo1/demo1",
+        "text": "食堂",
+        "iconPath": "icon/eat.png",
+        "selectedIconPath": "icon/eat1.png"
+      },
+      {
+        "pagePath": "pages/demo2/demo2",
+        "text": "个人",
+        "iconPath": "icon/person.png",
+        "selectedIconPath": "icon/person1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
