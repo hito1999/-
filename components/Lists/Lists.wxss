@@ -1,0 +1,12 @@
+/* components/Lists/Lists.wxss */
+.body{
+  background-color: turquoise;
+  margin:5rpx;
+  padding:10rpx;
+  border: 2rpx solid lightblue;
+  border-radius: 30rpx;
+}
+.btn1{
+  margin-left:480rpx;
+  font-size:24rpx;
+}

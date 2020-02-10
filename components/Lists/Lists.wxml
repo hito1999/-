@@ -1,0 +1,10 @@
+<view class="body">
+  <view class="id">id：{{one.id}}</view>
+  <view >是否可接受：
+  <icon type="success" size="16" color="green"></icon>
+  </view>
+  <view class="person">发帖人：{{one.person}}</view>
+  <view class="content">具体内容：{{one.content}}</view>  
+  <view class="time">创建时间：{{one.time}}</view> 
+  <button class="btn1" bindtap="one">展开</button>
+</view>
